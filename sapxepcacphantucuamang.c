@@ -5,10 +5,6 @@ int main() {
     int i, j, temp;
     printf("Ban muon nhap bao nhieu phan tu (toi da 100)? ");
     scanf("%d", &n);
-    if (n > 100 || n <= 0) {
-        printf("So luong khong hop le. Vui long nhap so tu 1 den 100.\n");
-        return 1; 
-    }
     printf("Vui long nhap %d so:\n", n);
     for (i = 0; i < n; i++) {
         printf("Phan tu thu %d: ", i + 1);
@@ -34,4 +30,5 @@ int main() {
     }
     printf("\n");
     return 0;
+
 }
